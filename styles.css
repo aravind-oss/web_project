@@ -275,6 +275,7 @@
     filter:drop-shadow(25px);
     transform: matrix3d(23px);
   }
+  /* table contian */
   .table{
     text-align: center;
     display: grid;
