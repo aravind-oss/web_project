@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  
+  body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    background-color: #252525;
+    color: #252525 ;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+    scroll-padding-right: 20px;
+    color: #F9ED32;
+    padding: 10px;
+    
+
+  }
+  .contact{
+    color: #F9ED32;
+    text-align:justify;
+    text-align: center;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color:#3C3C3C;
+    color: #FFFFFF;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    border-radius:1px; 
+  }
+  
+  header .logo {
+    display: inline-block;
+    margin-right: 1rem;
+    text-emphasis: none;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  header nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color:  #FFF225;
+    text-align: center;
+  }
+  
+  header .social-icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+  }
+  
+  header .social-icons a {
+    margin-left: 0.5rem;
+  }
+  .contactimage{
+     border-image-source: -moz-linear-gradient(23,23,23,11.2rem);  
+  }
+  .contactdetails{
+    padding: 10px;
+  }
+  .table{
+    color: #F9ED32;
+    text-align: center;
+
+  }
+  .bookingform{
+    display:-moz-grid-line;
+    text-align:center;
+    padding: 50px;
+    color: #F9ED32;
+    min-width: 500px;
+    
+  }
+  .username{
+    padding-bottom: 10px;
+  }
+  .usermail{
+     padding-bottom: 10px;
+  }
+  .usernumber{
+    padding-bottom: 10px;
+    padding-right: 63px;
+  }
+  .userbike{
+    padding-bottom: 10px;
+    padding-right: 100px;
+  }
+  .useradhaarnumber{
+     padding: 10px;
+     padding-right: 70px;
+  }
+  .userpincode{
+    padding-right: 7px;
+  }
+  .useraddress{
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+  /* Main Content Styles */
+  main {
+    padding-top:70px;
+    min-width:500px;
+  }
+  
+  .page {
+    padding: 3rem 0;
+  }
+  
+  .page h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #F9ED32;
+  }
+  
+  .page p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+  
+
+  .button {
+    display: inline-block;
+    background-color: #F9ED32;
+    color: #252525;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  
+  }
+  .color-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    background-color: #FFF225;
+  
+  }
+  .carousel{
+    background-color: #FFFFFF;
+  }
+  .carousel h2{
+    color: #F9ED32;
+  }
+  .carousel p{
+    color:#F9ED32;
+  }
+  .carousel{
+    display: flex;
+    flex-direction: column;
+    
+  
+  }
+  .carousel-item1{
+    display: flex;
+    flex-wrap: wrap;
+    font-display: black;
+    background-color:white;
+    padding-right:50%;
+    padding: 50px;
+    scroll-padding-right: 150px;
+    animation-play-state: running;
+    font-size: 25px;
+    background-image: linear-gradient();
+  }
+  
+  .battery-container {
+    width: 120px;
+    height: 60px;
+    background-color: black;
+    border: 1px solid #ccc;
+    position:absolute;
+    overflow: hidden;
+    
+  }
+  .battery-level {
+    width: 100%;
+    height: 100%;
+    background-color: #4CAF50;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom;
+    transition: transform 0.3s ease;
+  }
+  .battery-cap {
+    width: 20px;
+    height: 10px;
+    background-color:grey;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 2px;
+  }
+  .imagtag{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    
+  }
+  .carousel-item2{
+    background-color: #252525;
+    padding-right:50%;
+    padding: 50px;
+    scroll-padding-right: 150px;
+    animation-play-state: running;
+    font-size: larger;
+    background-image: linear-gradient();
+    font-size: 25px;
+  }
+  .carousel-item3{
+    background-color: #252525;
+    padding-right:50%;
+    padding: 90px;
+    scroll-padding-right: 150px;
+    animation-play-state: running;
+    font-size: larger;
+    background-image: linear-gradient();
+    font-size: 25px;
+  }
+  .carousel-item4{
+    font-display: black;
+    padding-right:50%;
+    padding: 80px;
+    scroll-padding-right: 150px;
+    animation-play-state: running;
+    font-size: larger;
+    background-image: linear-gradient();
+    font-size: 25px;
+  }
+  .carousel-item5{
+    background-color:#252525;
+    text-emphasis: none;
+    transform:translate3d(12);
+    padding-right:50%;
+    padding: 90px;
+    scroll-padding-right: 150px;
+    animation-play-state: running;
+    font-size: larger;
+    background-image: linear-gradient();
+    font-size: 25px;
+  }
+  .vehicle-image{
+    filter:drop-shadow(25px);
+    transform: matrix3d(23px);
+  }
+  .table{
+    text-align: center;
+    display: grid;
+    -ms-layout-grid: 10px;
+    padding: 20px;
+  }
+  .ESO3Table{
+    text-align: center;
+    display: grid;
+    -ms-layout-grid: 20px;
+  }
+  .ESO32Table{
+    text-align: center;
+    display: grid;
+    -ms-layout-grid: 20px;
+  }
+  .ESO3MaxTable{
+    text-align: center;
+    display: grid;
+    -ms-layout-grid: 20px;
+  }
+  .rental{
+    display: grid;
+    padding: 100px;
+    font-size: 40px;
+    margin: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #131313;
+    color: #EDEDED;
+    padding: 2rem 0;
+    margin-top: 3rem;
+    display: grid;
+    min-width: 400px;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  footer ul li a {
+    color: #EDEDED;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer ul li a:hover {
+    color: #F9ED32;
+    
+  }
+  
+  /* Dropdown Menu Styles */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #373737;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content li {
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  
+  }
+  
+  /* Other Custom Styles */
+  .vehicle-image {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .color-buttons {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .color-button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .text-details {
+    margin-bottom: 2rem;
+  }
+  
+  /* Animation Classes (using Animate.css) */
+  .animate__animated {
+    animation-duration: 1s;
+  }
+  
+  .animate__bounceInLeft {
+    animation-name: bounceInLeft;
+  }
+  
+  .animate__pulse {
+    animation-name: pulse;
+  
+  .animate__infinite {
+    animation-iteration-count: infinite;
+  }
+  }
